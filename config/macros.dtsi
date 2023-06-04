@@ -44,11 +44,11 @@ macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp RC(C)>;
+bindings = <&kp LG(C)>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp RC(V)>;
+bindings = <&kp LG(V)>;
 };
